@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import ltidemos.Calculator;
 
 class NewTest {
 
@@ -16,14 +15,9 @@ class NewTest {
 	@Test
 	public void testCase1()
 	{
-		Assertions.assertEquals("Hello","Hello");
+		Assertions.assertEquals("Hello","hello");
 	}
-	@Test 
-	public void testAdd() {
-		Calculator c = new Calculator();
-		int r=c.add(100, 400);
-		Assertions.assertEquals(500,r);
-	}
+	
 	@Test
 	void testAssertFalse() {
 	Assertions.assertFalse("FirstName".length() == 10);

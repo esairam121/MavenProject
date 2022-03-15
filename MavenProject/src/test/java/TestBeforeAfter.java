@@ -22,18 +22,20 @@ class TestBeforeAfter {
 	Assertions.assertEquals("Up","Up");
 	System.out.println(" before each ");
 	}
-	@Test
+	/*@Test
 	public void testAdd()
 	{
 	Calculator c= new Calculator();
-	int r= c.add(300, 200);
+	int r= c.add(300, 100);
 	Assertions.assertEquals(500,r);
-	}
+	System.out.println("test");
+	}*/
 	@Test
 	void testAssertEqual() {
 	Assertions.assertEquals("ABC", "ABC");
 	Assertions.assertEquals(20, 20, "optional assertion message");
 	Assertions.assertEquals(2 + 2, 4);
+	System.out.println("test");
 	}
 
 	@AfterEach
